@@ -12,14 +12,385 @@ class PixTableSeeder extends Seeder
     {
         DB::table('pix')->insert([
             [
-                'nomeproduto' => '5k morango',
-                'nomecliente' => 'Tannem',
-                'valor' => 'R$ 12.0',
+                'nomeproduto' => 'Não Declarado',
+                'nomecliente' => '',
+                'valor' => 62,
                 'nomeprodutoterceiro' => '',
                 'nometerceiro' => '',
-                'valorterceiro' => '',
-                'valortotal' => '',
-            ]
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Cupom',
+                'nomecliente' => 'KafraVerse',
+                'valor' => 45,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '5k morango',
+                'nomecliente' => 'JawHead',
+                'valor' => 5.55,
+                'nomeprodutoterceiro' => '3k morango (não Lembro preço da epoca)',
+                'nometerceiro' => 'Gui',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '5k morango',
+                'nomecliente' => 'Tannem',
+                'valor' => 12,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'O sinl',
+                'nomecliente' => 'JawHead',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'O sinl',
+                'nomecliente' => 'Urameshi',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'O sinl',
+                'nomecliente' => 'Maverick',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '5k Ferrao, 5k Canino, 5k Espinho',
+                'nomecliente' => 'Roperick',
+                'valor' => 13.56,
+                'nomeprodutoterceiro' => '1300 de um dos 3 (não Lembro preço da epoca)',
+                'nometerceiro' => 'Gui',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '4k morango',
+                'nomecliente' => 'Lemes',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '1k Morango, 5k Areia Estelar, 20k Garrafa Vazia, 1k Esporo, 1k Canino,1k Espinho, 1k Ferrao',
+                'nomecliente' => 'Guii',
+                'valor' => 100,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Passe de Batalha',
+                'nomecliente' => 'Aleez',
+                'valor' => 17,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => '1k de Mastela, 2k Canino Venenoso, 2k Ferrão de Abelha, 2k Espinho de Cacto',
+                'nomecliente' => 'Biroska',
+                'valor' => 16.68,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => '1k Tecido',
+                'nomecliente' => 'Venom',
+                'valor' => 6.5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => '4k morango',
+                'nomecliente' => 'Thelemita ',
+                'valor' => 16,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => '200 Tecido, 200 Canino, 100 Esporo Venenoso',
+                'nomecliente' => 'Berna',
+                'valor' => 3.55,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => '5k morango',
+                'nomecliente' => 'Urameshi',
+                'valor' => 20,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => 'O sinal',
+                'nomecliente' => 'KnG',
+                'valor' => 12,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => '500 Tecido, 200 Alcool, 200 Karvo ',
+                'nomecliente' => 'Perovaz',
+                'valor' => 11.05,
+                'nomeprodutoterceiro' => '200 Alcool + 100 Karvo ',
+                'nometerceiro' => 'Gabu',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ], 
+            [
+                'nomeproduto' => '4k Morango',
+                'nomecliente' => 'Lemes',
+                'valor' => 16,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => '200 Karvo, 1k Espinho, 1k Ferrão, 1k Canino, 7k Areia Estelar de Bruxa ',
+                'nomecliente' => 'Perovaz',
+                'valor' => 41,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],          
+            [
+                'nomeproduto' => 'O sinal',
+                'nomecliente' => 'MoHawk',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'matheusalvesest',
+                'nomecliente' => 'MoHawk',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '3k Areia Estelar de Bruxa, 2k Canino, 2k Ferrão, 2k Espinho',
+                'nomecliente' => 'PerovaZ',
+                'valor' => 19.5,
+                'nomeprodutoterceiro' => '3k areia',
+                'nometerceiro' => '1k Gui + 2k China',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '2k de mastela, 2k mel, 3k de areia, 1.5k ferrao,1.5k de espinho',
+                'nomecliente' => 'Berna',
+                'valor' => 37.75,
+                'nomeprodutoterceiro' => '500 areia',
+                'nometerceiro' => 'China',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '1k GR, 1k mastela',
+                'nomecliente' => 'Seshomarhu',
+                'valor' => 15.50,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Escudo Espelhado',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 3,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Luva[1]',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 18,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Luva[1]',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 25,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Luva[1]',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 22,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '4kk',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 16,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Presilha[1]',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '6kk',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 21,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Traje de Gatuno[1] 3+STR',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 30,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '2Luva[1]',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 25,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Carta Creamy',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 3,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '2Luva[1]',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 20,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => '15 cash',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 13,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
+            [
+                'nomeproduto' => 'Chapeu Formoso',
+                'nomecliente' => 'Venda no Grupo Wpp',
+                'valor' => 13,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
         ]);
     }
 }
