@@ -401,6 +401,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-02'
             ],
+            [
+                'nomeproduto' => 'Bionicos e Lapis Mordido',
+                'nomecliente' => 'Sem Dedo',
+                'valor' => 34,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
         ]);
     }
 }
