@@ -1,5 +1,5 @@
 # Caixa_Do_Vit
-Sistema de caixa - PHP / Laravel
+Sistema de caixa, controle de venda,estoque e BI - PHP / Laravel.
 
 <br/>
 
