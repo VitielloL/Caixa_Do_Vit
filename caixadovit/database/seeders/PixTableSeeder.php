@@ -411,6 +411,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-02'
             ],
+            [
+                'nomeproduto' => '2700 Galho Seco',
+                'nomecliente' => 'Time is Money - 11 98486-2009 - Ricardo',
+                'valor' => 14.95,
+                'nomeprodutoterceiro' => '2700 Galho Seco',
+                'nometerceiro' => 'Gui  ',
+                'valorterceiro' => 13.45,
+                'valortotal' => null,
+                'datacompra' => '2024-06-02'
+            ],
         ]);
     }
 }
