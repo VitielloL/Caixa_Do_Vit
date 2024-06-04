@@ -112,7 +112,7 @@
                                         </a>
                                     </li> 
                                     <li class="nav-item">
-                                        <a href='' class="nav-link">
+                                        <a href='{{route('cash')}}' class="nav-link">
                                             <i class="nav-icon 	far fa-money-bill-alt"></i>
                                             <p> Cash </p>
                                         </a>

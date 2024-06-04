@@ -12,11 +12,12 @@ return new class extends Migration
             $table->increments('id');
             $table->string('nomeproduto')->nullable();
             $table->string('nomecliente')->nullable();
-            $table->string('valor')->nullable();
+            $table->float('valor')->nullable();
             $table->string('nomeprodutoterceiro')->nullable();
             $table->string('nometerceiro')->nullable();
-            $table->string('valorterceiro')->nullable();
-            $table->string('valortotal')->nullable();
+            $table->float('valorterceiro')->nullable();
+            $table->float('valortotal')->nullable();
+            $table->date('datacompra')->nullable();
             $table->timestamps();
         });
     }

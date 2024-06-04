@@ -17,6 +17,7 @@ class Cash extends Model
         'nometerceiro',
         'valorterceiro',
         'valortotal',
+        'datacompra',
     ];
     
     use HasFactory;
