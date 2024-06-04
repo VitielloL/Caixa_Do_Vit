@@ -416,10 +416,20 @@ class PixTableSeeder extends Seeder
                 'nomecliente' => 'Time is Money - 11 98486-2009 - Ricardo',
                 'valor' => 14.95,
                 'nomeprodutoterceiro' => '2700 Galho Seco',
-                'nometerceiro' => 'Gui  ',
+                'nometerceiro' => 'Gui',
                 'valorterceiro' => 13.45,
                 'valortotal' => null,
-                'datacompra' => '2024-06-02'
+                'datacompra' => '2024-06-03'
+            ],
+            [
+                'nomeproduto' => 'Manto Sagrado +3dex, Lapis Mordido, Rubor de Batalha, Antique Pipe',
+                'nomecliente' => 'Claudin',
+                'valor' => 90,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
         ]);
     }
