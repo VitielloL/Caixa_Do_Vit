@@ -516,6 +516,15 @@ class CashTableSeeder extends Seeder
                 'valorterceiro' => null,
                 'valortotal' => null,
             ],
+            [
+                'nomeproduto' => 'Botas[1] + Brinco',
+                'nomecliente' => 'Drake Cadman',
+                'valor' => 5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+            ],
         ]);
     }
 }
