@@ -451,6 +451,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-06'
             ],
+            [
+                'nomeproduto' => 'Trevo de 4 folhas na boca',
+                'nomecliente' => 'Luiz',
+                'valor' => 17,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-07'
+            ],
         ]);
     }
 }
