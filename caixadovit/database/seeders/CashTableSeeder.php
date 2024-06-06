@@ -524,6 +524,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Cãibra',
@@ -533,6 +534,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-05'
             ],
         ]);
     }
