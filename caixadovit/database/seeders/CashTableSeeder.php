@@ -19,6 +19,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => 44.5,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Up RD',
@@ -28,6 +29,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Maça[4] RO',
@@ -37,6 +39,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Arco Composto[4] - custo sp -7% , medio+8%, sombrio +6%, sp max -68',
@@ -46,6 +49,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Hidra',
@@ -55,6 +59,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Faca[4] RO',
@@ -64,6 +69,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Medusa',
@@ -73,6 +79,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Malha[1]',
@@ -82,6 +89,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Maça[4] RO',
@@ -91,6 +99,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Bota[1]',
@@ -100,6 +109,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Bastão[1] RO',
@@ -109,6 +119,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Drops 2x',
@@ -118,6 +129,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Poring Noel',
@@ -127,6 +139,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Bota[1]',
@@ -136,6 +149,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Elmo',
@@ -145,6 +159,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Poring Noel 4x',
@@ -154,6 +169,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Broche',
@@ -163,6 +179,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Faca[4] RO',
@@ -172,6 +189,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
 
             [
@@ -182,6 +200,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Bota[1]',
@@ -191,6 +210,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Bastão[1] RO',
@@ -200,6 +220,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Bastão[1] RO',
@@ -209,6 +230,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Broche',
@@ -218,6 +240,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => '11x Armas Lixo RO',
@@ -227,6 +250,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Chapéu de Bufão',
@@ -236,6 +260,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => '2x Carta Gargula',
@@ -245,6 +270,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => '1x Carta Pesadelo',
@@ -254,6 +280,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Luva de Puxada',
@@ -263,6 +290,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Luva de Puxada',
@@ -272,6 +300,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Katana[1] RO',
@@ -281,6 +310,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => '2x Maça[4] RO',
@@ -290,6 +320,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Clava RO',
@@ -299,6 +330,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Guisarme RO',
@@ -308,6 +340,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Glaive',
@@ -317,6 +350,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Stiletto RO',
@@ -326,6 +360,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => '2x Ovos Rank C',
@@ -335,6 +370,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Stiletto RO',
@@ -344,6 +380,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => '5x Carta Poring Noel',
@@ -353,6 +390,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Zipper',
@@ -362,6 +400,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Goblin',
@@ -371,6 +410,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Flora',
@@ -380,6 +420,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Ovo de Pesadelo',
@@ -389,6 +430,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Anolian',
@@ -398,6 +440,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Arco de Caça +6',
@@ -407,6 +450,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Chapéu Fedorento',
@@ -416,6 +460,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Botas[1]',
@@ -425,6 +470,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Bathory ',
@@ -434,6 +480,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Stiletto RO',
@@ -443,6 +490,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => '2x Carta Poring Noel',
@@ -452,6 +500,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Tritao',
@@ -461,6 +510,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Pupa',
@@ -470,6 +520,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Ecudo Espelhado',
@@ -479,6 +530,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Lavadeira',
@@ -488,6 +540,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Carta Argiope + Minha parte na carta Caimbra',
@@ -497,6 +550,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Stiletto RO',
@@ -506,6 +560,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Main Gauche RO',
@@ -515,6 +570,7 @@ class CashTableSeeder extends Seeder
                 'nometerceiro' => '',
                 'valorterceiro' => null,
                 'valortotal' => null,
+                'datacompra' => '2024-06-04'
             ],
             [
                 'nomeproduto' => 'Botas[1] + Brinco',
