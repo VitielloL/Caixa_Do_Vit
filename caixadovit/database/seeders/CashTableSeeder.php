@@ -622,6 +622,16 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-05'
             ],
+            [
+                'nomeproduto' => 'Carta Grand Peco',
+                'nomecliente' => 'GantR',
+                'valor' => 2,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-07'
+            ],
         ]);
     }
 }
