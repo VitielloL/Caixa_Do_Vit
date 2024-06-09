@@ -632,6 +632,16 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-07'
             ],
+            [
+                'nomeproduto' => 'Ovo de Seyren 3str 3%danomedio',
+                'nomecliente' => 'Tuts Sell',
+                'valor' => 39,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
         ]);
     }
 }
