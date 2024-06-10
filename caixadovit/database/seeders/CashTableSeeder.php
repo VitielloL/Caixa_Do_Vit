@@ -642,6 +642,86 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-09'
             ],
+            [
+                'nomeproduto' => 'Carta Bathory',
+                'nomecliente' => 'Desert Sx',
+                'valor' => 12,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
+            [
+                'nomeproduto' => 'Carta Poring Noel',
+                'nomecliente' => 'Desert Sx',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
+            [
+                'nomeproduto' => 'Carta Poring Noel',
+                'nomecliente' => 'NetinhaTabacuda',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
+            [
+                'nomeproduto' => 'Carta Poring Noel',
+                'nomecliente' => 'John',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
+            [
+                'nomeproduto' => 'Carta Poring Noel',
+                'nomecliente' => 'Reigan',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
+            [
+                'nomeproduto' => 'Carta Medusa',
+                'nomecliente' => 'SDZippo',
+                'valor' => 2.5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
+            [
+                'nomeproduto' => '3xCarta Poring Noel',
+                'nomecliente' => 'Heyhey Casca',
+                'valor' => 2.5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
+            [
+                'nomeproduto' => 'Bastão 2dex 5%hp',
+                'nomecliente' => 'TARADO POR FENDA',
+                'valor' => 10,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-09'
+            ],
         ]);
     }
 }
