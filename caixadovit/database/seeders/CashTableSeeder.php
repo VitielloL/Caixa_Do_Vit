@@ -722,6 +722,16 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-09'
             ],
+            [
+                'nomeproduto' => '(Carta Papel + Anel)/10',
+                'nomecliente' => 'Dropado na instancia de hell',
+                'valor' => 10.5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-10'
+            ],
         ]);
     }
 }
