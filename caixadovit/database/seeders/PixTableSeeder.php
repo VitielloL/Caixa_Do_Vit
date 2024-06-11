@@ -491,6 +491,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-10'
             ],
+            [
+                'nomeproduto' => '2k Canino, 2k Espinho, 2k Ferrão',
+                'nomecliente' => 'PerovaZ',
+                'valor' => 18,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-11'
+            ],
         ]);
     }
 }
