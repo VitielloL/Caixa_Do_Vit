@@ -501,6 +501,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-11'
             ],
+            [
+                'nomeproduto' => 'Ovo +2agi 7%Grand 400HP',
+                'nomecliente' => 'Sour',
+                'valor' => 35,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-11'
+            ],
         ]);
     }
 }
