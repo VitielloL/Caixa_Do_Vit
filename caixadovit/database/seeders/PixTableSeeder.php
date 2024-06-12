@@ -511,6 +511,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-11'
             ],
+            [
+                'nomeproduto' => 'Luva[1]',
+                'nomecliente' => 'Vitor',
+                'valor' => 12,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-12'
+            ],
         ]);
     }
 }
