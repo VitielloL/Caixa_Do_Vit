@@ -17,7 +17,7 @@ class CashTableSeeder extends Seeder
                 'valor' => 0,
                 'nomeprodutoterceiro' => '',
                 'nometerceiro' => '',
-                'valorterceiro' => 62.5,
+                'valorterceiro' => 162.5,
                 'valortotal' => null,
                 'datacompra' => '2024-06-04'
             ],

@@ -521,6 +521,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-12'
             ],
+            [
+                'nomeproduto' => '3000 Geléia Real + 100cash',
+                'nomecliente' => 'Duenz',
+                'valor' => 100,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-12'
+            ],
         ]);
     }
 }
