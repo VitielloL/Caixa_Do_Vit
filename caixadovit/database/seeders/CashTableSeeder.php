@@ -732,6 +732,16 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-10'
             ],
+            [
+                'nomeproduto' => '(Carta Esqueleto Arqueiro)/10',
+                'nomecliente' => 'Dropado na instancia de hell',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-11'
+            ],
         ]);
     }
 }
