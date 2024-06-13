@@ -14,22 +14,31 @@ class PixController extends Controller
     {
         // Calculando a soma de todos os valores
         $somaValores = Pix::sum('valor');
-    
+
         // Calculando a soma de todos os valores terceiros
         $somaValoresTerceiro = Pix::sum('valorterceiro');
-    
+
         // Calculando a diferença entre a soma de todos os valores e a soma de todos os valores terceiros
         $diferencaTotal = $somaValores - $somaValoresTerceiro;
-    
-        // Recuperar todos os clientes ordenados pelo nome
+
+        // Recuperar todos os dados ordenados pelo nome do produto
         $dados = Pix::orderBy('nomeproduto')->paginate(10);
-        
+
+        // Iterar sobre os dados para formatar a data e qualquer outra preparação necessária
         foreach ($dados as $dado) {
-            // Convertendo a data para o formato brasileiro
-            $dado->datacompra = Carbon::parse($dado->datacompra)->format('d/m/Y');
+            // Convertendo a data para o formato brasileiro, se ela não estiver vazia
+            if (!empty($dado->datacompra)) {
+                try {
+                    $dado->datacompra_formatada = \Carbon\Carbon::createFromFormat('Y-m-d', $dado->datacompra)->format('d/m/Y');
+                } catch (\Exception $e) {
+                    $dado->datacompra_formatada = '--'; // Em caso de erro na formatação, define como '--'
+                }
+            } else {
+                $dado->datacompra_formatada = '--'; // Se a data estiver vazia, define como '--'
+            }
         }
-    
-        // Retornar a view com os dados e a diferença total
+
+        // Retornar a view com os dados formatados e a diferença total
         return view('pix.index', compact('dados', 'diferencaTotal'));
     }
 

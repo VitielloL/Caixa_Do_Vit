@@ -65,6 +65,7 @@
                                             (!empty($dado->valor) ? number_format($dado->valor, 2, ',', '.') : '--')
                                         }}
                                     </td>
+                                    <!-- <td class="text-center"> {{ !empty($dado->datacompra_formatada) ? $dado->datacompra_formatada : '--' }}</td> -->
                                     <td class="text-center">{{ !empty($dado->datacompra) ? \Carbon\Carbon::parse($dado->datacompra)->format('d/m/Y') : '--' }}</td>
                                     <td class="text-center">
                                         <div class="d-flex justify-content-center">
