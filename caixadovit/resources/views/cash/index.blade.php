@@ -3,7 +3,7 @@
 @section('conteudo')
 <div class="container-fluid my-4">
     <div style="margin-bottom: 15px; padding-top:15px; display:flex; justify-content:space-between; align-items:center;">
-        <h2>Vendas no <i>Cash <h5>R$ {{ number_format($diferencaTotal, 2, ',', '.') }}</h5></i></h2> 
+        <h2>Vendas no <i>Cash <h5>{{ number_format($diferencaTotal, 2, ',', '.') }} C</h5></i></h2> 
         <a href='{{route('cash.novo')}}' class='btn btn-success' style="height: 40px;"><i class="fas fa-coins"></i> &nbsp Cadastrar</a>
     </div>
 
@@ -56,14 +56,14 @@
                                 <tr>
                                     <td class="text-center">{{ !empty($dado->nomeproduto) ? $dado->nomeproduto : '--' }}</td>
                                     <td class="text-center">{{ !empty($dado->nomecliente) ? $dado->nomecliente : '--' }}</td>
-                                    <td class="text-center">R$ {{ !empty($dado->valor) ? $dado->valor : '--' }}</td>
+                                    <td class="text-center">{{ !empty($dado->valor) ? $dado->valor : '--' }}C</td>
                                     <td class="text-center">{{ !empty($dado->nometerceiro) ? $dado->nometerceiro : '--' }}</td>
                                     <!-- <td class="text-center">R$ {{ !empty($dado->valortotal) ? $dado->valortotal : '--' }}</td> -->
-                                    <td class="text-center">R$ {{
+                                    <td class="text-center">{{
                                             !empty($dado->valor) && isset($dado->valorterceiro) ? 
                                             number_format(abs($dado->valor - $dado->valorterceiro), 2, ',', '.') : 
                                             (!empty($dado->valor) ? number_format($dado->valor, 2, ',', '.') : '--')
-                                        }}
+                                        }} C
                                     </td>
                                     <td class="text-center">{{ !empty($dado->datacompra) ? \Carbon\Carbon::parse($dado->datacompra)->format('d/m/Y') : '--' }}</td>
                                     <td class="text-center">
