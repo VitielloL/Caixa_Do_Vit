@@ -531,6 +531,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-12'
             ],
+            [
+                'nomeproduto' => '1800 Mel + 2000 Morango',
+                'nomecliente' => 'MolotoV',
+                'valor' => 21.7,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-13'
+            ],
         ]);
     }
 }
