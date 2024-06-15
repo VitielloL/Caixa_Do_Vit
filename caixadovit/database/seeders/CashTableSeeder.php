@@ -742,6 +742,36 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-11'
             ],
+            [
+                'nomeproduto' => '(Carta Esqueleto Arqueiro)/10',
+                'nomecliente' => 'Dropado na instancia de hell',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-11'
+            ],
+            [
+                'nomeproduto' => '2 Carta Flora',
+                'nomecliente' => 'TomaTex',
+                'valor' => 4,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-14'
+            ],
+            [
+                'nomeproduto' => '1 Carta Zipper',
+                'nomecliente' => 'Martelada',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-14'
+            ],
         ]);
     }
 }
