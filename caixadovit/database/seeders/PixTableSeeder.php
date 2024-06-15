@@ -541,6 +541,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-13'
             ],
+            [
+                'nomeproduto' => '3 Armadilha de Insetos',
+                'nomecliente' => 'Teteu Snp',
+                'valor' => 7.5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-14'
+            ],
         ]);
     }
 }
