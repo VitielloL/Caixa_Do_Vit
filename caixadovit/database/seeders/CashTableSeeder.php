@@ -772,6 +772,46 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-14'
             ],
+            [
+                'nomeproduto' => '1 Carta Poring Noel',
+                'nomecliente' => 'Mika7',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-18'
+            ],
+            [
+                'nomeproduto' => '1 Carta Medusa',
+                'nomecliente' => 'Exarchopoulos',
+                'valor' => 3,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-18'
+            ],
+            [
+                'nomeproduto' => 'Luva de Puxada',
+                'nomecliente' => 'gabuz3ra',
+                'valor' => 8,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-18'
+            ],
+            [
+                'nomeproduto' => 'Carta Louva-a-Deus',
+                'nomecliente' => 'Kaname',
+                'valor' => 4,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-18'
+            ],
         ]);
     }
 }
