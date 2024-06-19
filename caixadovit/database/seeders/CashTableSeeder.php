@@ -743,9 +743,9 @@ class CashTableSeeder extends Seeder
                 'datacompra' => '2024-06-11'
             ],
             [
-                'nomeproduto' => '(Carta Esqueleto Arqueiro)/10',
+                'nomeproduto' => '(Anel)/10',
                 'nomecliente' => 'Dropado na instancia de hell',
-                'valor' => 1,
+                'valor' => 1.36,
                 'nomeprodutoterceiro' => '',
                 'nometerceiro' => '',
                 'valorterceiro' => null,
