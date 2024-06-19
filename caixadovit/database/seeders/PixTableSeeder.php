@@ -561,6 +561,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-19'
             ],
+            [
+                'nomeproduto' => '5k Mastela + 2100 Mel',
+                'nomecliente' => 'MolotoV',
+                'valor' => 46.20,
+                'nomeprodutoterceiro' => '1600 Mel',
+                'nometerceiro' => 'Gui',
+                'valorterceiro' => 9.36,
+                'valortotal' => null,
+                'datacompra' => '2024-06-19'
+            ],
         ]);
     }
 }
