@@ -581,6 +581,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-19'
             ],
+            [
+                'nomeproduto' => 'O sinal',
+                'nomecliente' => 'MFSimple',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-21'
+            ],
         ]);
     }
 }
