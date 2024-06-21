@@ -812,6 +812,26 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-18'
             ],
+            [
+                'nomeproduto' => 'Luva de Puxada',
+                'nomecliente' => 'Guarda Chuva',
+                'valor' => 8,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-21'
+            ],
+            [
+                'nomeproduto' => 'Luva',
+                'nomecliente' => 'SellBuy',
+                'valor' => 2,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-21'
+            ],
         ]);
     }
 }
