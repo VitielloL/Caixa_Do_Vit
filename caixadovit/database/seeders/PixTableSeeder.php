@@ -591,6 +591,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-21'
             ],
+            [
+                'nomeproduto' => '100 Areia de Bruxa + 4700 Erva Branca + 1250 Erva Azul',
+                'nomecliente' => 'Rafinha Almeida',
+                'valor' => 32.90,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-25'
+            ],
         ]);
     }
 }
