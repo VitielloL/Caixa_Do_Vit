@@ -22,6 +22,16 @@ class CashTableSeeder extends Seeder
                 'datacompra' => '2024-06-04'
             ],
             [
+                'nomeproduto' => 'Vaporeon',
+                'nomecliente' => 'Vitiello',
+                'valor' => 0,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => 5,
+                'valortotal' => null,
+                'datacompra' => '2024-06-21'
+            ],
+            [
                 'nomeproduto' => 'Up RD',
                 'nomecliente' => 'RD',
                 'valor' => 100,
@@ -831,6 +841,46 @@ class CashTableSeeder extends Seeder
                 'valorterceiro' => null,
                 'valortotal' => null,
                 'datacompra' => '2024-06-21'
+            ],
+            [
+                'nomeproduto' => 'missao sagrada (provavelmente nome errado no rodex)',
+                'nomecliente' => 'ezmoney',
+                'valor' => 2,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-25'
+            ],
+            [
+                'nomeproduto' => 'Elmo de Goibne',
+                'nomecliente' => 'JutsuPirocaFlamegante',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-25'
+            ],
+            [
+                'nomeproduto' => 'Elmo de Goibne',
+                'nomecliente' => 'Ken Humano',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-25'
+            ],
+            [
+                'nomeproduto' => 'Pingente de Morrigane',
+                'nomecliente' => 'Snail',
+                'valor' => 3,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-25'
             ],
         ]);
     }
