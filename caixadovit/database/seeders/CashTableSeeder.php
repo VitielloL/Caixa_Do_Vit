@@ -892,6 +892,26 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-25'
             ],
+            [
+                'nomeproduto' => '2x Benção de Odin',
+                'nomecliente' => 'Duenz',
+                'valor' => 6,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-26'
+            ],
+            [
+                'nomeproduto' => '1 Elmo de Goibne',
+                'nomecliente' => 'Uchiha Magoado',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-26'
+            ],
         ]);
     }
 }
