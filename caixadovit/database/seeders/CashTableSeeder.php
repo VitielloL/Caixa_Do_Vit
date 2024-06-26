@@ -32,6 +32,16 @@ class CashTableSeeder extends Seeder
                 'datacompra' => '2024-06-21'
             ],
             [
+                'nomeproduto' => 'Ovo 4int',
+                'nomecliente' => 'Vitiello',
+                'valor' => 0,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => 40,
+                'valortotal' => null,
+                'datacompra' => '2024-06-26'
+            ],
+            [
                 'nomeproduto' => 'Up RD',
                 'nomecliente' => 'RD',
                 'valor' => 100,
