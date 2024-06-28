@@ -912,6 +912,26 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-26'
             ],
+            [
+                'nomeproduto' => '1 Armadura de Goibne',
+                'nomecliente' => 'Desconhecido',
+                'valor' => 2,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-27'
+            ],
+            [
+                'nomeproduto' => '2x Valk Shield 70/11',
+                'nomecliente' => 'claudin ne amor + motorheaD',
+                'valor' => 6.3,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-27'
+            ],
         ]);
     }
 }
