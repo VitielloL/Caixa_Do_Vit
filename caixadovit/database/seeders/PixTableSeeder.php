@@ -601,6 +601,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-25'
             ],
+            [
+                'nomeproduto' => '3k Morango',
+                'nomecliente' => 'Alexis',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-29'
+            ],
         ]);
     }
 }
