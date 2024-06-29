@@ -611,6 +611,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-29'
             ],
+            [
+                'nomeproduto' => '5k Areia + 1k Erva Azul',
+                'nomecliente' => 'Rafinha',
+                'valor' => 34,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-06-29'
+            ],
         ]);
     }
 }
