@@ -932,6 +932,16 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-27'
             ],
+            [
+                'nomeproduto' => 'Neuralizador',
+                'nomecliente' => 'Vitor',
+                'valor' => 5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-04'
+            ],
         ]);
     }
 }
