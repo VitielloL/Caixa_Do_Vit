@@ -621,6 +621,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-06-29'
             ],
+            [
+                'nomeproduto' => '6k Mastela + 860 Morango + 470 GR',
+                'nomecliente' => 'MolotoV',
+                'valor' => 47.53,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-03'
+            ],
         ]);
     }
 }
