@@ -942,6 +942,46 @@ class CashTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-07-04'
             ],
+            [
+                'nomeproduto' => 'OVO B',
+                'nomecliente' => 'Gimme',
+                'valor' => 30,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-09'
+            ],
+            [
+                'nomeproduto' => 'Carta Verit',
+                'nomecliente' => 'MariusBlack',
+                'valor' => 6,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-09'
+            ],
+            [
+                'nomeproduto' => 'Carta Poring Noel',
+                'nomecliente' => 'Leekhan',
+                'valor' => 1,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-09'
+            ],
+            [
+                'nomeproduto' => 'Carta Anmut',
+                'nomecliente' => 'mikkiz',
+                'valor' => 40,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-09'
+            ],
         ]);
     }
 }
