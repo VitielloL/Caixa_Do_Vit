@@ -691,6 +691,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-07-16'
             ],
+            [
+                'nomeproduto' => '5500 Esporo de Cogumelo',
+                'nomecliente' => 'Oryan',
+                'valor' => 2.5,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-16'
+            ],
         ]);
     }
 }
