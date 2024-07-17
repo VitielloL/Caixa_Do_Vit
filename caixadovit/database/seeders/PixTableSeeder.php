@@ -711,6 +711,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-07-16'
             ],
+            [
+                'nomeproduto' => '20kk + Trevo, Bandana de Mecanico, Tiara de Pluma, Mascara Colorida',
+                'nomecliente' => 'F A B U L O S O',
+                'valor' => 54,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-17'
+            ],
         ]);
     }
 }
