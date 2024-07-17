@@ -701,6 +701,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-07-16'
             ],
+            [
+                'nomeproduto' => '9 Simbolo Sombrio',
+                'nomecliente' => 'MolotoV',
+                'valor' => 9,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-16'
+            ],
         ]);
     }
 }
