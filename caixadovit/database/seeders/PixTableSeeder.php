@@ -721,6 +721,26 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-07-17'
             ],
+            [
+                'nomeproduto' => '7kk',
+                'nomecliente' => 'F A B U L O S O',
+                'valor' => 4.9,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-18'
+            ],
+            [
+                'nomeproduto' => '9 Energia sombria',
+                'nomecliente' => 'MolotoV',
+                'valor' => 9,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-18'
+            ],
         ]);
     }
 }
