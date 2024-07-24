@@ -751,6 +751,16 @@ class PixTableSeeder extends Seeder
                 'valortotal' => null,
                 'datacompra' => '2024-07-24'
             ],
+            [
+                'nomeproduto' => '2luvas zerom + bionicos + lapis',
+                'nomecliente' => 'Bernardo',
+                'valor' => 15,
+                'nomeprodutoterceiro' => '',
+                'nometerceiro' => '',
+                'valorterceiro' => null,
+                'valortotal' => null,
+                'datacompra' => '2024-07-24'
+            ],
         ]);
     }
 }
